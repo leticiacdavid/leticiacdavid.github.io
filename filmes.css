@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #000000;
+  font-family: 'Poppins', sans-serif;;
+  color: white;
+}
+
+.contagem {
+font-size: 10px;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 0px
+}
+
+.header {
+  max-width: 100%;
+}
+
+.catalogo {  
+  width: 1300px;
+  justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px
+}
+
+.imagemFilme {
+  width: 280px;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px #000000;
+  transition: background 1s;
+  margin-bottom: 10px;
+}
+
+.texto {
+  margin-bottom: 30px;
+  max-width: 280px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  color:white;
+  text-shadow: black;
+}
+
+p {
+  font-size: 13px;
+  color: #A4A4A4
+}
